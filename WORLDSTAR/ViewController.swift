@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var date: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let formatter = DateFormatter()
+        
+        formatter.dateFormat = "dd MMMM yyyy"
+        
+        date.text = formatter.string(from: Date())
         // Do any additional setup after loading the view, typically from a nib.
     }
+
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

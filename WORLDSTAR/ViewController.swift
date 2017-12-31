@@ -10,15 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var date: UILabel!
-    @IBOutlet weak var itinerary: UIScrollView!
-    @IBOutlet weak var today_food: UILabel!
-    @IBOutlet weak var today_fun: UILabel!
-    @IBOutlet weak var remaining_food: UILabel!
-    @IBOutlet weak var remaining_fun: UILabel!
-    @IBOutlet weak var remaining_total: UILabel!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

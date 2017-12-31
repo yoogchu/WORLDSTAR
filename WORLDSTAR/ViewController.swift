@@ -14,11 +14,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let formatter = DateFormatter()
-        
         formatter.dateFormat = "dd MMMM yyyy"
-        
         date.text = formatter.string(from: Date())
         // Do any additional setup after loading the view, typically from a nib.
     }

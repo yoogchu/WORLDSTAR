@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBF5BDD11FFAE94D0000644B /* mainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */; };
 		C9CC72AF1FF81834000D1833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC72AE1FF81834000D1833 /* AppDelegate.swift */; };
 		C9CC72B11FF81834000D1833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC72B01FF81834000D1833 /* ViewController.swift */; };
 		C9CC72B41FF81834000D1833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CC72B21FF81834000D1833 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTableTableViewController.swift; sourceTree = "<group>"; };
 		C9CC72AB1FF81834000D1833 /* WORLDSTAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WORLDSTAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CC72AE1FF81834000D1833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CC72B01FF81834000D1833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				C9CC72B51FF81834000D1833 /* Assets.xcassets */,
 				C9CC72B71FF81834000D1833 /* LaunchScreen.storyboard */,
 				C9CC72BA1FF81834000D1833 /* Info.plist */,
+				BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */,
 			);
 			path = WORLDSTAR;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				C9CC72B11FF81834000D1833 /* ViewController.swift in Sources */,
 				C9CC72AF1FF81834000D1833 /* AppDelegate.swift in Sources */,
+				BBF5BDD11FFAE94D0000644B /* mainTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

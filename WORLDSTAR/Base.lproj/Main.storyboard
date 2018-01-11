@@ -93,16 +93,41 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewLayout key="collectionViewLayout" id="AOL-yk-SRr"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5Qk-o6-uwa">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCell" id="5Qk-o6-uwa" customClass="MenuCollectionViewCell" customModule="WORLDSTAR" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="163"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="184" height="163"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PpR-az-CLX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="184" height="91.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MW6-Wa-dm5">
+                                                    <rect key="frame" x="8" y="111.5" width="168" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="PpR-az-CLX" firstAttribute="leading" secondItem="5Qk-o6-uwa" secondAttribute="leading" id="0ob-s1-vru"/>
+                                            <constraint firstItem="MW6-Wa-dm5" firstAttribute="trailing" secondItem="5Qk-o6-uwa" secondAttribute="trailingMargin" id="Kca-Xx-Bxw"/>
+                                            <constraint firstItem="PpR-az-CLX" firstAttribute="top" secondItem="5Qk-o6-uwa" secondAttribute="top" id="Pt3-vb-BKu"/>
+                                            <constraint firstItem="MW6-Wa-dm5" firstAttribute="top" secondItem="PpR-az-CLX" secondAttribute="bottom" constant="20" id="bXL-cI-iab"/>
+                                            <constraint firstItem="MW6-Wa-dm5" firstAttribute="leading" secondItem="5Qk-o6-uwa" secondAttribute="leadingMargin" id="hSz-UM-9Sd"/>
+                                            <constraint firstAttribute="trailing" secondItem="PpR-az-CLX" secondAttribute="trailing" id="k43-Lt-3ez"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="MW6-Wa-dm5" secondAttribute="bottom" constant="20" id="r1u-CB-Rpg"/>
+                                        </constraints>
+                                        <size key="customSize" width="184" height="163"/>
+                                        <connections>
+                                            <outlet property="menuImage" destination="PpR-az-CLX" id="wto-Eq-llJ"/>
+                                            <outlet property="menuLabel" destination="MW6-Wa-dm5" id="qpU-g4-fgE"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Mmu-0p-vaI">
-                                        <rect key="frame" x="65" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="194" y="56.5" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -110,7 +135,7 @@
                                         </view>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="V0V-47-Gyz">
-                                        <rect key="frame" x="130" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="254" y="56.5" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -118,7 +143,7 @@
                                         </view>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Xkq-c8-zBf">
-                                        <rect key="frame" x="195" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="314" y="56.5" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>

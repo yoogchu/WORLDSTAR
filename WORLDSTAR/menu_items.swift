@@ -13,6 +13,6 @@ enum items {
 }
 struct menuItems {
     let name: String
-    let image: 
-    enum menu
+    //let image: UIImage
+   // enum menu
 }

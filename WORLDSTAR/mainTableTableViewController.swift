@@ -9,10 +9,18 @@
 import UIKit
 
 class mainTableTableViewController: UITableViewController {
-
+    //MARK: Properties
+    
+    @IBOutlet weak var budget_all: UILabel!
+    @IBOutlet weak var food_today: NSLayoutConstraint!
+    @IBOutlet weak var fun_today: UILabel!
+    @IBOutlet weak var food_rem: NSLayoutConstraint!
+    @IBOutlet weak var fun_rem: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -29,12 +37,12 @@ class mainTableTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
 
     /*

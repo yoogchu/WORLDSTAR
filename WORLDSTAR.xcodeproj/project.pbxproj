@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3A3CBC20A14B7300FBD3FA /* GLOBALS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A3CBB20A14B7300FBD3FA /* GLOBALS.swift */; };
 		BBF5BDD11FFAE94D0000644B /* mainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */; };
 		C926C04D2006BC2D00113F05 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926C04C2006BC2D00113F05 /* MenuViewController.swift */; };
 		C926C04F2006BDE600113F05 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926C04E2006BDE600113F05 /* MenuCollectionViewCell.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB3A3CBB20A14B7300FBD3FA /* GLOBALS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOBALS.swift; sourceTree = "<group>"; };
 		BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTableTableViewController.swift; sourceTree = "<group>"; };
 		C926C04C2006BC2D00113F05 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = WORLDSTAR/MenuViewController.swift; sourceTree = "<group>"; };
 		C926C04E2006BDE600113F05 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewCell.swift; path = WORLDSTAR/MenuCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C9CC72B71FF81834000D1833 /* LaunchScreen.storyboard */,
 				C9CC72BA1FF81834000D1833 /* Info.plist */,
 				BBF5BDD01FFAE94D0000644B /* mainTableTableViewController.swift */,
+				BB3A3CBB20A14B7300FBD3FA /* GLOBALS.swift */,
 			);
 			path = WORLDSTAR;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				C9B9353E2006B05D003F2CD9 /* CollectionViewController.swift in Sources */,
 				C926C04D2006BC2D00113F05 /* MenuViewController.swift in Sources */,
 				C9CC72B11FF81834000D1833 /* ViewController.swift in Sources */,
+				BB3A3CBC20A14B7300FBD3FA /* GLOBALS.swift in Sources */,
 				C9CC72AF1FF81834000D1833 /* AppDelegate.swift in Sources */,
 				BBF5BDD11FFAE94D0000644B /* mainTableTableViewController.swift in Sources */,
 				C926C04F2006BDE600113F05 /* MenuCollectionViewCell.swift in Sources */,

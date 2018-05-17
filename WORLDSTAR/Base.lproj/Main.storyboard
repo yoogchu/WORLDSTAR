@@ -356,6 +356,13 @@
                         </connections>
                     </tableView>
                     <size key="freeformSize" width="375" height="1005"/>
+                    <connections>
+                        <outlet property="budget_all" destination="TbS-tz-gvR" id="WE9-gO-XJr"/>
+                        <outlet property="food_rem" destination="Wsx-8g-YBZ" id="ATV-TZ-qg4"/>
+                        <outlet property="food_today" destination="q3a-6M-6tn" id="Qj2-fZ-lZR"/>
+                        <outlet property="fun_rem" destination="Ifl-EV-BcV" id="xo6-nU-fy9"/>
+                        <outlet property="fun_today" destination="A5h-In-jU6" id="0Ei-Lk-yhg"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pak-mQ-6mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
